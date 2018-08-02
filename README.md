@@ -6,4 +6,5 @@ Collection of scripts
 * [Get-Uptime.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/Get-Uptime.ps1) - Get local computer uptime
 * [GetUserLastLogon.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/GetUserLastLogon.ps1) - Get users last logon time and last password change time
 
-
+### useful for Citrix
+* [MachinesWithoutLogonOver30Days.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/MachinesWithoutLogonOver30Days.ps1) - Find Desktop VDIs which have not been used over 30 days
