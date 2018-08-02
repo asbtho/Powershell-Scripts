@@ -28,6 +28,6 @@ Import-Csv $csv | % { $_.username } | % {
   if (Test-Path -Path $dst){
     Get-acl $src | Set-acl -path $dst
   } else {
-    write-host "SET ACL: Path $src does not exist"
+    write-host "SET ACL: Path $dst does not exist"
   }
 }
