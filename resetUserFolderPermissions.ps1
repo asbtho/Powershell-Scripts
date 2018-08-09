@@ -1,5 +1,6 @@
-﻿<#
+<#
 Source: https://help.redinsight.com/en/knowledgebase/article/resetting-permissions-on-folderredirections-folder
+Added /A to takeown command to take ownership as administrators group instead of current admin user
 
 Script to reset user folder permissions.
 Uses: icacls.exe and takeown.exe
@@ -19,7 +20,7 @@ foreach ($dir in $dirs){
     #$user = $user.Trim(".fqdn") # Use this if folders contain extra letters after username
     write-output $dir.fullname
     write-output $user
-    takeown.exe /F $($dir.fullname) /R /D Y |out-null
+    takeown.exe /F $($dir.fullname) /A /R /D Y |out-null
     icacls.exe $($dir.fullname) /reset /T /C /L /Q
     icacls.exe $($dir.fullname) /grant ($($user) + ':(OI)(CI)F') /C /L /Q
     icacls.exe $($dir.fullname) /setowner $($user) /T /C /L /Q
