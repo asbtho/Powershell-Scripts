@@ -2,7 +2,9 @@
 
 $days = 50
 $path = "\\server\profileParentFolder\"
-$output = "C:\temp\log.txt"
+$output = "C:\temp\profilesLog.txt"
+
+New-Item -Path $output -ItemType File -Force
 Clear-Content $output
 
 $parentDirs = Get-ChildItem -Path $path -Directory -Force -ErrorAction SilentlyContinue
