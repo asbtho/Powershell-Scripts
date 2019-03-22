@@ -11,6 +11,9 @@ Use at own risk
 * [GetUserLastLogon.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/GetUserLastLogon.ps1) - Get users last logon time and last password change time
 * [GetProfilesModifiedWithin.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/GetProfilesModifiedWithin.ps1) - Get names of top folders where any subfiles/folders have been written to within last XX days
 * [resetUserFolderPermissions.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/resetUserFolderPermissions.ps1) - Recursively reset owner to user (based on folder name)
+* [controlServicesOnMultipleMachines.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/controlServicesOnMultipleMachines.ps1) - Template for controlling multiple services on multiple servers. Needs editing based on what you want to do.
+
+
 
 ### Useful for Citrix
 * [MachinesWithoutLogonOver30Days.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/MachinesWithoutLogonOver30Days.ps1) - Find Desktop VDIs which have not been used over 30 days
