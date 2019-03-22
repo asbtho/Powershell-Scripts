@@ -16,3 +16,5 @@ Use at own risk
 * [MachinesWithoutLogonOver30Days.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/MachinesWithoutLogonOver30Days.ps1) - Find Desktop VDIs which have not been used over 30 days
 * [MigrateMyDocumentsWithPermissions.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/MigrateMyDocumentsWithPermissions.ps1) - Move only one profile subfolder for multiple users from one share to another, keep permissions
 * [controlServicesOnMultipleMachines.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/controlServicesOnMultipleMachines.ps1) - Edit services on multiple machines
+* [findBrokenSIDCitrix.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/findBrokenSIDCitrix.ps1) - Find and list broken SID in Citrix Studio Applications
+
