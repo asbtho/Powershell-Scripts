@@ -20,4 +20,6 @@ Use at own risk
 * [MigrateMyDocumentsWithPermissions.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/MigrateMyDocumentsWithPermissions.ps1) - Move only one profile subfolder for multiple users from one share to another, keep permissions
 * [controlServicesOnMultipleMachines.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/controlServicesOnMultipleMachines.ps1) - Edit services on multiple machines
 * [findBrokenSIDCitrix.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/findBrokenSIDCitrix.ps1) - Find and list broken SID in Citrix Studio Applications
+* [AddGroupToApplicationsInDeliveryGroup.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/AddGroupToApplicationsInDeliveryGroup.ps1) - Add AD user or group to all applications in delivery group
+* [GetApplicationsFromDesktopGroup-Report.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/GetApplicationsFromDesktopGroup-Report.ps1) - Export a CSV with all applications from delivery group
 
