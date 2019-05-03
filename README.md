@@ -22,4 +22,8 @@ Use at own risk
 * [findBrokenSIDCitrix.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/findBrokenSIDCitrix.ps1) - Find and list broken SID in Citrix Studio Applications
 * [AddGroupToApplicationsInDeliveryGroup.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/AddGroupToApplicationsInDeliveryGroup.ps1) - Add AD user or group to all applications in delivery group
 * [GetApplicationsFromDesktopGroup-Report.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/GetApplicationsFromDesktopGroup-Report.ps1) - Export a CSV with all applications from delivery group
+* [AddCategoryToApplicationsInDeliveryGroup.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/AddCategoryToApplicationsInDeliveryGroup.ps1) - Add "Application category" to all applications in delivery group
+
+
+
 
