@@ -1,5 +1,5 @@
 # Powershell-Scripts
-Collection of scripts
+Collection of scripts for my own use
 
 Use at own risk
 
