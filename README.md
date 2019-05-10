@@ -4,15 +4,14 @@ Collection of scripts
 Use at own risk
 
 ### General / AD
-
-* [addComputers.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/addComputers.ps1) - Add computers from CSV file to Logon Workstations for every user in an OU
-* [Get users who expires on a Date.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/Get%20users%20who%20expires%20on%20a%20Date.ps1) - Check which users expires on a certain date in the future
-* [Get-Uptime.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/Get-Uptime.ps1) - Get local computer uptime
-* [GetUserLastLogon.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/GetUserLastLogon.ps1) - Get users last logon time and last password change time
-* [GetProfilesModifiedWithin.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/GetProfilesModifiedWithin.ps1) - Get names of top folders where any subfiles/folders have been written to within last XX days
-* [resetUserFolderPermissions.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/resetUserFolderPermissions.ps1) - Recursively reset owner to user (based on folder name)
+* [getUsersEmailFromUserNameInTextFile.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/getUsersEmailFromUserNameInTextFile.ps1) - Get Usernames from text file and output email, department and other properties to CSV file (text file with 1 username per newline).
+* [addComputers.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/addComputers.ps1) - Add computers from CSV file to Logon Workstations for every user in an OU.
+* [Get users who expires on a Date.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/Get%20users%20who%20expires%20on%20a%20Date.ps1) - Check which users expires on a certain date in the future.
+* [Get-Uptime.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/Get-Uptime.ps1) - Get local computer uptime.
+* [GetUserLastLogon.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/GetUserLastLogon.ps1) - Get users last logon time and last password change time.
+* [GetProfilesModifiedWithin.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/GetProfilesModifiedWithin.ps1) - Get names of top folders where any subfiles/folders have been written to within last XX days.
+* [resetUserFolderPermissions.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/resetUserFolderPermissions.ps1) - Recursively reset owner to user (based on folder name).
 * [controlServicesOnMultipleMachines.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/controlServicesOnMultipleMachines.ps1) - Template for controlling multiple services on multiple servers. Needs editing based on what you want to do.
-
 
 
 ### Useful for Citrix
