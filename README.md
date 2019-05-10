@@ -1,7 +1,7 @@
 # Powershell-Scripts
 Collection of scripts for my own use
 
-Use at own risk
+Use at your own risk
 
 ### General / AD
 * [getUsersEmailFromUserNameInTextFile.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/getUsersEmailFromUserNameInTextFile.ps1) - Get Usernames from text file and output email, department and other properties to CSV file (text file with 1 username per newline).
