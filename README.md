@@ -22,7 +22,6 @@ Use at your own risk
 * [AddGroupToApplicationsInDeliveryGroup.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/AddGroupToApplicationsInDeliveryGroup.ps1) - Add AD user or group to all applications in delivery group
 * [GetApplicationsFromDesktopGroup-Report.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/GetApplicationsFromDesktopGroup-Report.ps1) - Export a CSV with all applications from delivery group
 * [AddCategoryToApplicationsInDeliveryGroup.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/AddCategoryToApplicationsInDeliveryGroup.ps1) - Add "Application category" to all applications in delivery group
-
-
+* [MonitorDeliveryGroupLoad.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/MonitorDeliveryGroupLoad.ps1) - Log the average index load of all delivery groups which name does not contain "test". Send logs to event viewer.
 
 
