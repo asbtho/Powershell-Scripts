@@ -14,8 +14,8 @@ asnp citrix*
 #INITIAL CONFIGURATION VARIABLES
 
 
-$sourceDeliveryGroup = "UBF Delivery Gruppe"
-$destinationDeliveryGroup = "UBF Test Delivery Gruppe"
+$sourceDeliveryGroup = "Source Delivery Group"
+$destinationDeliveryGroup = "Destination Delivery Group"
 
 # THIS WILL BE DUPLICATED APP - "_1" + $newNameExtra
 $newNameExtra = " TEST 2016" 
