@@ -36,7 +36,8 @@ $apps
 foreach ($app in $apps){
     $in = Get-BrokerApplication -ApplicationName $app.ApplicationName
     Write-Host “Duplicating app to new deliverygroup: ” $in.ApplicationName
-    $in | Remove-BrokerApplication -DesktopGroup $sourceDeliveryGroup
+    #$in | Add-BrokerApplication -DesktopGroup $destinationDeliveryGroup
+    #$in | Remove-BrokerApplication -DesktopGroup $sourceDeliveryGroup
 }
 
 $desktopgroup2 = Get-BrokerDesktopGroup -Name $destinationDeliveryGroup
@@ -51,6 +52,6 @@ foreach ($app2 in $apps2){
     $newname = $newname.Substring(0,$newname.Length-2)
     $newname = $newname + $newNameExtra
     Write-Host “Renaming app from: " $in2.ApplicationName " to " $newname
-    $in2 | Set-BrokerApplication -PublishedName $newname
-    $in2 | Rename-BrokerApplication -NewName $newname
+    #$in2 | Set-BrokerApplication -PublishedName $newname
+    #$in2 | Rename-BrokerApplication -NewName $newname
 }
