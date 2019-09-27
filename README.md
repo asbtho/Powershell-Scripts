@@ -23,5 +23,4 @@ Use at your own risk
 * [GetApplicationsFromDesktopGroup-Report.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/GetApplicationsFromDesktopGroup-Report.ps1) - Export a CSV with all applications from delivery group
 * [AddCategoryToApplicationsInDeliveryGroup.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/AddCategoryToApplicationsInDeliveryGroup.ps1) - Add "Application category" to all applications in delivery group
 * [MonitorDeliveryGroupLoad.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/MonitorDeliveryGroupLoad.ps1) - Log the average index load of all delivery groups which name does not contain "test". Send logs to event viewer.
-
-
+* [Duplicate applications move them to another delivery group and add text to application name.ps1.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/Duplicate%20applications%20move%20them%20to%20another%20delivery%20group%20and%20add%20text%20to%20application%20name.ps1) - Duplicate applications, move them to another delivery group and append text to application name
