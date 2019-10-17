@@ -1,6 +1,6 @@
 ####################################################################################
 #
-# BASIC
+# BASIC VERSION, INPUT IS USERNAME
 #
 ####################################################################################
 $users = ForEach ($user in $(Get-Content C:\temp\users.txt)) {
@@ -15,7 +15,7 @@ $users | Select-Object SamAccountName,Department,Mail | Export-CSV -Path C:\temp
 
 ####################################################################################
 #
-# IF DATA IS NOT STRAIGHT FORMATTED FROM AD
+# SPECIAL VERSION, IF DATA IS NOT STRAIGHT FORMATTED FROM AD
 # NEEDS TO BE ADJUSTED BASED ON OWN INPUT PREFERENCES
 #
 ####################################################################################
