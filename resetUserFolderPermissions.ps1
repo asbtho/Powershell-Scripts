@@ -18,6 +18,7 @@ $dirs = gci "$mainDir" |? {$_.psiscontainer}
 foreach ($dir in $dirs){
     $user = $dir.basename
     #$user = $user.Trim(".fqdn") # Use this if folders contain extra letters after username
+    #$user = "domain\" + $user # Use this to prepend domain name if user is in other domain
     write-output $dir.fullname
     write-output $user
     takeown.exe /F $($dir.fullname) /A /R /D Y |out-null
