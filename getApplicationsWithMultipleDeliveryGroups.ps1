@@ -2,6 +2,7 @@
 
 # Get initial delivery group
 $desktopGroup = Get-BrokerDesktopGroup -Name "Delivery Group Name"
+Write-Host $desktopGroup.Name "found" -ForegroundColor Green
 $DesktopGroupUid = $desktopGroup.Uid
 
 # Get all applications from delivery group
@@ -68,4 +69,4 @@ ForEach ($app in $allApplications)
     }
 }
 
-Write-Host "Job Done, CSV output to C:\temp\log.txt"
+Write-Host "Job Done, CSV output to C:\temp\log.txt" -ForegroundColor Green
