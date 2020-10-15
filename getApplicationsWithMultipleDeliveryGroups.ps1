@@ -5,7 +5,7 @@ $desktopGroup = Get-BrokerDesktopGroup -Name "Delivery Group Name"
 $DesktopGroupUid = $desktopGroup.Uid
 
 # Get all applications from delivery group
-$allApplications = Get-BrokerApplication -AssociatedDesktopGroupUid $DesktopGroupUid
+$allApplications = Get-BrokerApplication -AssociatedDesktopGroupUid $DesktopGroupUid -MaxRecordCount 10000
 
 # For each application in delivery group check if it has multiple unique delivery groups
 ForEach ($app in $allApplications)
