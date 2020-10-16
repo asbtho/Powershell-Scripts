@@ -29,3 +29,5 @@ Use at your own risk
 * [removeUserProfileBackups.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/removeUserProfileBackups.ps1) - Remove all profile folders based on pattern ex. (username.old)
 * [removeUserProfilesLastWrite90Days.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/removeUserProfilesLastWrite90Days.ps1) - Remove all profile folders older than amount of days
 * [getApplicationsWithMultipleDeliveryGroups.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/getApplicationsWithMultipleDeliveryGroups.ps1) - Get all applications from a delivery group, check if each applications has multiple different delivery groups (including the applications app groups tied to delivery groups)
+* [RemoveMultipleDeliveryGroupsFromApplicationWithAppGroup.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/RemoveMultipleDeliveryGroupsFromApplicationWithAppGroup.ps1) - Get all applications from a delivery group, check if each applications has both an App Group and Delivery groups. Uncomment Remove-BrokerApplication to remove the delivery groups from the applications found.
+
