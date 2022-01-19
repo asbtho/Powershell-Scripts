@@ -13,6 +13,8 @@ Use at your own risk
 * [resetUserFolderPermissions.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/resetUserFolderPermissions.ps1) - Recursively reset owner to user (based on folder name).
 * [controlServicesOnMultipleMachines.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/controlServicesOnMultipleMachines.ps1) - Template for controlling multiple services on multiple servers. Needs editing based on what you want to do.
 * [getRemoteServersMemory.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/getRemoteServersMemory.ps1) - Get memory usage and stats for multiple machines (WMI TCP 135+highports + 445 required)
+* * [checkAllUserProfilesForCertainFolderFiles.ps1](https://github.com/asbtho/Powershell-Scripts/blob/master/checkAllUserProfilesForCertainFolderFiles.ps1) - Script to find if certain folder in user profile share contains files or is empty. For multiple users.
+
 
 
 
